@@ -6,7 +6,7 @@
 * Multiple blur options including custom blur
 * Result is a view that can be added to or overlaid on a current view for a blurring effect
 
-# Installation
+## Installation
 Just copy `UIBlurView.h` and `UIBlurView.m` files into your project. Add `#import UIBlurView.h` to whatever view controller is creating an instance of `UIBlurView`.
 
 UIBlurView uses the UIImageEffects class (provided by apple) so also copy UIImageEffects.h and UIImageEffects.m files in your project. These files are included in this repository.
