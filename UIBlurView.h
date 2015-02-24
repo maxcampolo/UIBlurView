@@ -15,6 +15,10 @@
 
 @interface UIBlurView : UIView
 
+#pragma mark - Properties
+
+@property (nonatomic, readonly) UIImage *bgImage;
+
 #pragma mark - Class methods
 
 // Sets blurred background with default settings

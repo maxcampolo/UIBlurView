@@ -14,6 +14,8 @@
 
 @implementation UIBlurView
 
+@synthesize bgImage = _bgImage;
+
 # pragma mark - Class methods
 
 // Set blurred background with default effects defined by BlurView
@@ -24,6 +26,7 @@
     [bgImgView setContentMode:UIViewContentModeScaleToFill];
     [bgImgView setImage:blurredImage];
     [self insertSubview:bgImgView atIndex:0];
+    _bgImage = blurredImage;
 }
 
 // Set blurred background with dark effect
@@ -34,6 +37,7 @@
     [bgImgView setContentMode:UIViewContentModeScaleToFill];
     [bgImgView setImage:blurredImage];
     [self insertSubview:bgImgView atIndex:0];
+    _bgImage = blurredImage;
 }
 
 // Set blurred background with light effect
@@ -44,6 +48,7 @@
     [bgImgView setContentMode:UIViewContentModeScaleToFill];
     [bgImgView setImage:blurredImage];
     [self insertSubview:bgImgView atIndex:0];
+    _bgImage = blurredImage;
 }
 
 // Set blurred background with custom specifications
@@ -54,6 +59,7 @@
     [bgImgView setContentMode:UIViewContentModeScaleToFill];
     [bgImgView setImage:blurredImage];
     [self insertSubview:bgImgView atIndex:0];
+    _bgImage = blurredImage;
 }
 
 #pragma mark - Private methods
